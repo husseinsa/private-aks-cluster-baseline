@@ -1,0 +1,4 @@
+#ignore the files generate by running terraform commands locally
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup
