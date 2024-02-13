@@ -8,7 +8,7 @@ This regional virtual network hub (shared) holds the following subnets:
 - Resource Group
 - AKS: aks{suffix}
 - ACR: acr{suffice}
-- Private Endpoint: pe-<resource-name>
+- Private Endpoint: pe-{resource-name}
 - Public IP: pip-{resource-type}-{region}-{number}
 - Subnet: snet-{resource-idetifier}
 - VNET for Spoke: vnet-spoke-{bu-name}-{number}
