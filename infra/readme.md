@@ -6,8 +6,8 @@
 This regional virtual network hub (shared) holds the following subnets:
 
 - Resource Group
-- AKS: aks{bu}
-- ACR: acr{bu}
+- AKS: aks{suffix}
+- ACR: acr{suffice}
 - Private Endpoint: pe-<resource-name>
 - Public IP: pip-{resource-type}-{region}-{number}
 - Subnet: snet-{resource-idetifier}
