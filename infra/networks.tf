@@ -9,7 +9,7 @@ resource "azurerm_virtual_network" "hub" {
 
 # Spoke 1 Virtual Network
 resource "azurerm_virtual_network" "spoke1" {
-  name                = "vnet-spoke-${var.business_unit_name}-001"
+  name                = "vnet-spoke-${var.business_unit_name}"
   address_space       = ["10.240.0.0/16"]
   location            = var.location
   resource_group_name = azurerm_resource_group.network_spoke.name
